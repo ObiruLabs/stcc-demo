@@ -16,15 +16,15 @@
         appDependencies = [];
 
     for (i = 0; i < commonDependencies.length; i++) {
-        commonDependencies[i] = '/js/vendor/' + commonDependencies[i] + '.js';
+        commonDependencies[i] = 'js/vendor/' + commonDependencies[i] + '.js';
     }
 
     for (i = 0; i < indexDependencies.length; i++) {
-        indexDependencies[i] = '/js/' + indexDependencies[i] + '.js';
+        indexDependencies[i] = 'js/' + indexDependencies[i] + '.js';
     }
 
     for (i = 0; i < appDependencies.length; i++) {
-        appDependencies[i] = '/js/' + appDependencies[i] + '.js';
+        appDependencies[i] = 'js/' + appDependencies[i] + '.js';
     }
 
     if (isProduction) {
@@ -39,11 +39,11 @@
     Modernizr.load([
         {
             test: IE8_TEST,
-            nope: '/js/vendor/json3.js'
+            nope: 'js/vendor/json3.js'
         },
         {
             test: Modernizr.mq('only all'),
-            nope: '/js/vendor/respond.js'
+            nope: 'js/vendor/respond.js'
         },
         {
             load: commonDependencies,
@@ -90,7 +90,7 @@
         },
         {
             test: Modernizr.placeholder,
-            nope: '/js/vendor/jquery.placeholder.js',
+            nope: 'js/vendor/jquery.placeholder.js',
             callback: function (url, result, key) {
                 if (!result) {
                     $('input, textarea').placeholder();

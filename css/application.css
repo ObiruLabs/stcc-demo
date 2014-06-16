@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.comcss?family=Open+Sans:400,700);
 [class*="geomicon"] {
   color: #444; }
 
@@ -253,8 +253,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("/css/fonts/glyphicons-halflings-regular.eot");
-  src: url("/css/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/css/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/css/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("css/fonts/glyphicons-halflings-regular.eot");
+  src: url("css/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("css/fonts/glyphicons-halflings-regular.woff") format("woff"), url("css/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5083,8 +5083,8 @@ button.close {
   font-family: "Geomicons";
   font-style: normal;
   font-weight: 500;
-  src: url("/css/fonts/Geomicons.eot");
-  src: url("/css/fonts/Geomicons.eot?#iefix") format("embedded-opentype"), url("/css/fonts/Geomicons.woff") format("woff"), url("/css/fonts/Geomicons.ttf") format("truetype"), url("/css/fonts/Geomicons.svg#Geomicons") format("svg"); }
+  src: url("css/fonts/Geomicons.eot");
+  src: url("css/fonts/Geomicons.eot?#iefix") format("embedded-opentype"), url("css/fonts/Geomicons.woff") format("woff"), url("css/fonts/Geomicons.ttf") format("truetype"), url("css/fonts/Geomicons.svg#Geomicons") format("svg"); }
 [data-icon]:before {
   font-family: 'Geomicons';
   content: attr(data-icon);
@@ -5932,7 +5932,7 @@ button.close {
     margin-bottom: 25px;
     text-align: center; }
   .about--staff-image {
-    behavior: url("/css/polyfills/pie.htc");
+    behavior: url("css/polyfills/pie.htc");
     border-radius: 50%;
     height: auto;
     max-width: 100px;
@@ -5948,7 +5948,7 @@ button.close {
     display: block;
     font-style: italic; }
   .about--face-image {
-    behavior: url("/css/polyfills/pie.htc");
+    behavior: url("css/polyfills/pie.htc");
     border-radius: 50%;
     height: auto;
     max-width: 100%;
@@ -6030,12 +6030,12 @@ button.close {
   margin-left: -15px;
   margin-right: -15px;
   background-color: #648c8e;
-  background-image: url("/images/contactus.jpg");
+  background-image: url("images/contactus.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
   padding: 50px 0 120px;
-  behavior: url("/css/polyfills/backgroundsize.htc"); }
+  behavior: url("css/polyfills/backgroundsize.htc"); }
   .contact-form:before, .contact-form:after {
     content: " ";
     display: table; }
@@ -6129,7 +6129,7 @@ button.close {
 
 .landing {
   background-color: #246085;
-  background-image: url("/images/helping-hands.jpg");
+  background-image: url("images/helping-hands.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -6137,7 +6137,7 @@ button.close {
   padding-top: 71px;
   position: relative;
   z-index: 1;
-  behavior: url("/css/polyfills/backgroundsize.htc"); }
+  behavior: url("css/polyfills/backgroundsize.htc"); }
   @media screen and (min-width: 768px) {
     .landing {
       margin-top: -95px;
@@ -6212,7 +6212,7 @@ button.close {
         text-align: left; } }
 
 .navbar {
-  background-image: url("/images/helping-hands.jpg");
+  background-image: url("images/helping-hands.jpg");
   border-bottom: 1px solid #94b7ce;
   border-left: none;
   border-right: none;
@@ -6223,10 +6223,10 @@ button.close {
   z-index: 10; }
   .navbar.has-background {
     background-color: #246085;
-    background-image: url("/images/helping-hands.jpg");
+    background-image: url("images/helping-hands.jpg");
     background-position: top;
     background-size: cover;
-    behavior: url("/css/polyfills/backgroundsize.htc"); }
+    behavior: url("css/polyfills/backgroundsize.htc"); }
   .navbar.navbar-default .navbar-toggle:focus, .navbar.navbar-default .navbar-toggle:hover {
     background: #fff;
     border-color: #fff; }
